@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/up_level"
+        android:icon="@drawable/up"
+        android:title="增加难度等级"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/down_level"
+        android:icon="@drawable/down"
+        android:title="减少难度等级"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/choose_photo"
+        android:icon="@drawable/pic5"
+        android:title="打开相册"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/take_photo"
+        android:icon="@drawable/camera6"
+        android:title="打开相机"
+        app:showAsAction="never" />
+
+</menu>
